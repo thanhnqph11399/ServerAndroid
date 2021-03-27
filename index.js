@@ -37,7 +37,7 @@ http.createServer(function(request, reponse) {
       }
     });
   } else if (url == "/rename") {
-    fs.rename("test.txt", "test2.txt", function(error) {
+    fs.rename("test.txt", "test2.txt", function(erro1r) {
       if (error == null) {
         reponse.end("Rename thanh cong");
       } else {
